@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import os 
 from keras.models import load_model
 
-model = load_model('D:\Burmese-OCR\src\model\CNN.keras')
+model = load_model(r'src\model\CNN.keras')
 
 test_image_path = os.getcwd() + r"/images.jpg"
 
